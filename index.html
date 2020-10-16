@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Notes App</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Note: bootstrap was not used in this project, but to include those certain stylings that bootstrap offers, therefore the bs cdn is included -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./CSS/style.css">
+</head>
+<body>
+<main >
+    <!-- Images/SVGS For Design -->
+<img class="Img1" src="./Images/cirlce1.svg" alt="circle">
+<img class="Img2" src="./Images/bgimg1.png" alt="bgimg">
+<img class="Img3" src="./Images/polygon1.svg" alt="polygon">
+<img class="Img4" src="./Images/circle2.svg" alt="circle">
+<img class="Img5" src="./Images/polygon2.svg" alt="polygon">
+<img class="Img6" src="./Images/circle3.svg" alt="circle">
+<img class="Img7" src="./Images/circle4.svg" alt="circle">
+<!-- Images/SVGS For Design -->
+<h2 class=" heading1">Light Notes</h2>
+<div class="heading2">
+  <div></div>
+  <h3>ADD A NOTE</h3>
+  <div></div>
+</div>
+<!-- The Input from Users -->
+<div class="user-text">
+  <textarea  id="user-input" required></textarea>
+</div>
+<div class="btn-area">
+  <button type="submit" id="submit-btn">ADD +</button>
+</div>
+</form>
+<div class="down-btn">
+  <h4> <a href="#main-sec">Your Notes</a> </h4>
+  <img src="./Images/arrow.svg" alt="down">
+</div>
+</main>
+
+<section id="main-sec">
+  <div  class="notes-sec" id="no-notes">
+    <div>
+<h3>NO NOTES ADDED <br>
+  YET! <img src="./Images/note.svg" alt="note"> </h3>
+    </div>
+    <div>
+      <p>Notes Will Appear Here After Being Added....</p>
+    </div>
+  </div >
+ <div id="notes-main">
+
+</div>
+
+</section>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<script src="./JS/main.js"></script>
+</body>
+</html>
